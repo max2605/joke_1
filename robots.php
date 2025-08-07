@@ -9,8 +9,8 @@ class robots
     private string $eyes = "blue";
     private bool $powermode = true;
     private int $amount_workitems = 0;
-    public array $workload = array();
-    public int $pop = 10;
+    private array $workload = array();
+    private int $pop = 10;
 
     public function mainloop () {
         while ($this->powermode) {
